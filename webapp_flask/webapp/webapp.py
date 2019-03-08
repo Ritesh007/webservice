@@ -24,7 +24,7 @@ def word_list():
 
 @app.route('/monitor')
 def monitor():
-  return "DOWN"
+  return "UP"
 
 if __name__ == "__main__":
     app.run(host= '0.0.0.0')
